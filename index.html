@@ -1,139 +1,361 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Timmy Huy Xuan Ngo | Hardware Engineer</title>
-	<link rel="icon" href="Favicons/floppy-disk.ico" type="image/x-icon">
-	<link rel="stylesheet" type="text/css" href="styles.css">
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-</head>
-<body id="index-body">
-	<header>
-		<div class="header-container">
-			<h1 id="fullname" class="top-header">Timmy Huy Xuan Ngo</h1>
-			<div>
-				<h1 class="options">About Me</h1>
-				<h1 class="options">Projects</h1>
-				<h1 class="options">Contact</h1>
-			</div>
-			<h1 id="location">
-				EST
-				<span id="current-time"></span>
-				<img id="location-logo" src="Favicons/ic_location_on_128_28437.ico" alt="Email"/>
-				Toronto
-			</h1>
-		</div>
-		<script src="script.js"></script>
-	</header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Timmy Huy Xuan Ngo - Computer Engineering Portfolio</title>
+    <meta name="description" content="Computer Engineering graduate specializing in digital systems, embedded hardware/software co-design, and SoC development" />
+    <meta name="author" content="Timmy Huy Xuan Ngo" />
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
 
-	<main>
-		<article id="him">
-			<h2 id="career-label">
-				Computer Engineer
-			</h2>
-			<div>
-				<a href="https://www.linkedin.com/in/timmy-ngo-1b98311b6/" target="_blank">
-					<img id="email" src="Favicons/email_18961.ico" alt="Email"/>
-				</a>
-				<a href="https://www.instagram.com/tim.huyxu" target="_blank">
-					<img id="instagram" src="Favicons/iconfinder-social-media-applications-3instagram-4102579_113804.ico" alt="Instagram"/>
-				</a>
-				<a href="https://www.linkedin.com/in/timmy-ngo-1b98311b6/" target="_blank">
-					<img id="linkedin" src="Favicons/linkedin_logo_icon_170234.ico" alt="LinkedIn"/>
-				</a>
-				<a href="https://github.com/HuySpring883" target="_blank">
-					<img id="github" src="Favicons/github-logo_icon-icons.com_73546.ico" alt="GitHub"/>
-				</a>
-				<a href="https://leetcode.com/u/HuySpring883/" target="_blank">
-					<img id="leetcode" src="Favicons/leetcode_logo_icon_145113.ico" alt="LeetCode"/>
-				</a>
-				<a href="https://www.youtube.com/channel/UCIIGyIL7x24Qt9xQ1yp--Kg" target="_blank">
-					<img id="youtube" src="Favicons/youtube_logo_icon_168737.ico" alt="YouTube"/>
-				</a>
-			</div>
-			<p>
-				Hello and welcome to my website! I am a computer engineering student 
-				from Toronto, Canada. I will be graduating by April 2024 and seeking 
-				employment in my respective field. Please use the navigation bar 
-				above to reach your end goal. Cheers!
-				<em>Note: website is under development!</em>
-			</p>
-			
-		</article>
-		<article id="skills">
-			<h2>
-				My Current Skills
-			</h2>
-			<div class="skill">
-				<a><img id="cpp" src="images/skills/ISO_C++_Logo.svg" alt="C++ Logo"/></a>
-				<h3>C/C++/SystemC</h3>
-				<a><img id="html" src="images/skills/HTML5_logo_and_wordmark.svg" alt="HTML Logo"/></a>
-				<h3>HTML</h3>
-				<a><img id="css" src="images/skills/Official_CSS_Logo.svg" alt="CSS Logo"/></a>
-				<h3>CSS</h3>
-				<a><img id="javascript" src="images/skills/JavaScript-logo(1).png" alt="JavaScript Logo"/></a>
-				<h3>JavaScript</h3>
-				<a><img id="java" src="images/skills/p-80-java.webp" alt="Java Logo"/></a>
-				<h3>java</h3>
-				<a><img id="python" src="images/skills/Python-logo-notext.svg" alt="Python Logo"/></a>
-				<h3>Python</h3>
-				<h3>VHDL</h3>
-				<h3>Assembly</h3>
-				<a><img id="latex" src="images/skills/LaTeX_logo.svg.png" alt="LaTeX Logo"/></a>
-				<h3>LaTeX</h3>
-				<a><img id="jupyter-notebook" src="images/skills/Jupyter_logo.svg.png" alt="Jupyter Notebook Logo"/></a>
-				<h3>Jupyter Notebook</h3>
-			</div>
-		</article>
-		<article id="projects">
-			<h2>
-				My Projects
-			</h2>
-			<div>
-				<article>
-					<h3>
-						HPS/FPGA Based MD5 Decryption SoC
-					</h3>
-					<h4 class="date">
-						February 2025 - On Going
-					</h4>
-				</article>
-				<article>
-					<h3>
-						B
-					</h3>
-					<h4 class="date">
-						2024
-					</h4>
-				</article>
-				<article>
-					<h3>
-						C
-					</h3>
-					<h4 class="date">
-						2024
-					</h4>
-				</article>
-				<article>
-					<h3>
-						D
-					</h3>
-					<h4 class="date">
-						2024
-					</h4>
-				</article>
-			</div>
-			<div id="more-projects-button">
-				Click here to view more projects...
-			</div>
-		</article>
-	</main>
+    <meta property="og:title" content="Timmy Huy Xuan Ngo - Computer Engineering Portfolio" />
+    <meta property="og:description" content="Computer Engineering graduate specializing in digital systems, embedded hardware/software co-design, and SoC development" />
+    <meta property="og:type" content="website" />
+  </head>
 
-	<footer>
-		<article class="copywrite-container">
-			<p>&copy; 2024 Timmy Huy Xuan Ngo</p>
-		</article>
-	</footer>
-</body>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+      <div class="nav-container">
+        <div class="nav-brand">
+          <a href="#home" class="nav-logo">TN</a>
+        </div>
+        <div class="nav-menu" id="nav-menu">
+          <a href="#home" class="nav-link">Home</a>
+          <a href="#skills" class="nav-link">Skills</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </div>
+        <div class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1 class="hero-title">
+              <span class="hero-greeting">Hello, I'm</span>
+              <span class="hero-name">Timmy Huy Xuan Ngo</span>
+            </h1>
+            <p class="hero-subtitle">Computer Engineering Graduate</p>
+            <p class="hero-location">📍 Toronto, Canada</p>
+            <p class="hero-description">
+              A passionate Computer Engineering graduate with strong experience in digital systems, 
+              embedded hardware/software co-design, SoC design, and system optimization. 
+              Interested in semiconductor and AI-integrated hardware development.
+            </p>
+            <div class="hero-links">
+              <a href="https://timhuyxuanngo.com" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                View Portfolio
+              </a>
+              <a href="mailto:tim.huyxuan.ngo@gmail.com" class="btn btn-secondary">
+                Get In Touch
+              </a>
+            </div>
+          </div>
+          <div class="hero-image">
+            <div class="profile-placeholder">
+              <div class="profile-initials">TN</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+      <div class="container">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3 class="skill-title">Programming Languages</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">VHDL</span>
+              <span class="skill-tag">Assembly</span>
+              <span class="skill-tag">Python</span>
+              <span class="skill-tag">Java</span>
+              <span class="skill-tag">C/C++</span>
+              <span class="skill-tag">SystemC</span>
+              <span class="skill-tag">HTML/CSS</span>
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">LaTeX</span>
+            </div>
+          </div>
+          
+          <div class="skill-category">
+            <h3 class="skill-title">Developer Tools</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">Git</span>
+              <span class="skill-tag">Vivado/Vitis</span>
+              <span class="skill-tag">Quartus II</span>
+              <span class="skill-tag">ModelSim</span>
+              <span class="skill-tag">CUDA</span>
+              <span class="skill-tag">VS Code</span>
+              <span class="skill-tag">Eclipse</span>
+              <span class="skill-tag">GTKWave</span>
+              <span class="skill-tag">MATLAB-Simulink</span>
+            </div>
+          </div>
+          
+          <div class="skill-category">
+            <h3 class="skill-title">Hardware Tools</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">µVision</span>
+              <span class="skill-tag">Cadence</span>
+              <span class="skill-tag">Oscilloscope</span>
+              <span class="skill-tag">Digital Multimeter</span>
+            </div>
+          </div>
+          
+          <div class="skill-category">
+            <h3 class="skill-title">Platforms</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">Xilinx FPGAs</span>
+              <span class="skill-tag">Spartan-3E</span>
+              <span class="skill-tag">Zynq</span>
+              <span class="skill-tag">Cora Z7</span>
+              <span class="skill-tag">ARM Cortex A9</span>
+              <span class="skill-tag">Altera Cyclone V</span>
+            </div>
+          </div>
+          
+          <div class="skill-category">
+            <h3 class="skill-title">Core Concepts</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">SoC Design</span>
+              <span class="skill-tag">RTL/DFT</span>
+              <span class="skill-tag">Embedded Systems</span>
+              <span class="skill-tag">Test Automation</span>
+              <span class="skill-tag">Analog Design</span>
+              <span class="skill-tag">Digital Design</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+          
+          <div class="project-card">
+            <div class="project-header">
+              <h3 class="project-title">SoC ECG Classifier</h3>
+              <div class="project-tech">PYNQ • Vivado</div>
+            </div>
+            <div class="project-content">
+              <ul class="project-highlights">
+                <li>Real-time QRS detection with 98% accuracy</li>
+                <li>Implemented using programmable logic</li>
+                <li>Optimized for embedded SoC performance</li>
+              </ul>
+            </div>
+            <div class="project-footer">
+              <a href="https://github.com/huyspring883" class="project-link" target="_blank" rel="noopener noreferrer">
+                View on GitHub →
+              </a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-header">
+              <h3 class="project-title">HPS/FPGA MD5 Decryption</h3>
+              <div class="project-tech">C • VHDL</div>
+            </div>
+            <div class="project-content">
+              <ul class="project-highlights">
+                <li>Parallel MD5 cracking system on Cyclone V</li>
+                <li>Achieved 5.68 hashes/ms throughput</li>
+                <li>Hardware-software co-design optimization</li>
+              </ul>
+            </div>
+            <div class="project-footer">
+              <a href="https://github.com/huyspring883" class="project-link" target="_blank" rel="noopener noreferrer">
+                View on GitHub →
+              </a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-header">
+              <h3 class="project-title">Secure Banking Application</h3>
+              <div class="project-tech">Python</div>
+            </div>
+            <div class="project-content">
+              <ul class="project-highlights">
+                <li>Secure GUI application with socket programming</li>
+                <li>Implemented symmetric cryptography</li>
+                <li>Multi-threaded client-server architecture</li>
+              </ul>
+            </div>
+            <div class="project-footer">
+              <a href="https://github.com/huyspring883" class="project-link" target="_blank" rel="noopener noreferrer">
+                View on GitHub →
+              </a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-header">
+              <h3 class="project-title">Digital PID Controller</h3>
+              <div class="project-tech">C • Threads</div>
+            </div>
+            <div class="project-content">
+              <ul class="project-highlights">
+                <li>Anti-windup PID control system</li>
+                <li>Real-time hardware validation</li>
+                <li>Multi-threaded implementation</li>
+              </ul>
+            </div>
+            <div class="project-footer">
+              <a href="https://github.com/huyspring883" class="project-link" target="_blank" rel="noopener noreferrer">
+                View on GitHub →
+              </a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-header">
+              <h3 class="project-title">VGA Video Game Processor</h3>
+              <div class="project-tech">VHDL</div>
+            </div>
+            <div class="project-content">
+              <ul class="project-highlights">
+                <li>VGA graphics processing on FPGA</li>
+                <li>FSM-controlled animations</li>
+                <li>Real-time video game implementation</li>
+              </ul>
+            </div>
+            <div class="project-footer">
+              <a href="https://github.com/huyspring883" class="project-link" target="_blank" rel="noopener noreferrer">
+                View on GitHub →
+              </a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-header">
+              <h3 class="project-title">Peer-to-Peer File Sharing</h3>
+              <div class="project-tech">Java</div>
+            </div>
+            <div class="project-content">
+              <ul class="project-highlights">
+                <li>UDP/TCP dual protocol implementation</li>
+                <li>Indexed content discovery system</li>
+                <li>Distributed file sharing network</li>
+              </ul>
+            </div>
+            <div class="project-footer">
+              <a href="https://github.com/huyspring883" class="project-link" target="_blank" rel="noopener noreferrer">
+                View on GitHub →
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title">Let's Connect</h2>
+        <div class="contact-content">
+          <p class="contact-description">
+            I'm always interested in discussing new opportunities in semiconductor development, 
+            embedded systems, and AI-integrated hardware projects.
+          </p>
+          <div class="contact-links">
+            <a href="mailto:tim.huyxuan.ngo@gmail.com" class="contact-link">
+              <div class="contact-icon icon-email"></div>
+              <div class="contact-info">
+                <div class="contact-label">Email</div>
+                <div class="contact-value">tim.huyxuan.ngo@gmail.com</div>
+              </div>
+            </a>
+            <a href="https://linkedin.com/in/timmy-huy-xuan-ngo" class="contact-link" target="_blank" rel="noopener noreferrer">
+              <div class="contact-icon icon-linkedin"></div>
+              <div class="contact-info">
+                <div class="contact-label">LinkedIn</div>
+                <div class="contact-value">timmy-huy-xuan-ngo</div>
+              </div>
+            </a>
+            <a href="https://github.com/huyspring883" class="contact-link" target="_blank" rel="noopener noreferrer">
+              <div class="contact-icon icon-github"></div>
+              <div class="contact-info">
+                <div class="contact-label">GitHub</div>
+                <div class="contact-value">huyspring883</div>
+              </div>
+            </a>
+            <!-- <a href="https://timhuyxuanngo.com" class="contact-link" target="_blank" rel="noopener noreferrer">
+              <div class="contact-icon icon-portfolio"></div>
+              <div class="contact-info">
+                <div class="contact-label">Portfolio</div>
+                <div class="contact-value">timhuyxuanngo.com</div>
+              </div>
+            </a> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2025 Timmy Huy Xuan Ngo</p>
+      </div>
+    </footer>
+
+    <script>
+      // Mobile menu toggle
+      const navToggle = document.getElementById('nav-toggle');
+      const navMenu = document.getElementById('nav-menu');
+
+      navToggle.addEventListener('click', () => {
+        navMenu.classList.toggle('active');
+        navToggle.classList.toggle('active');
+      });
+
+      // Smooth scrolling for navigation links
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute('href'));
+          if (target) {
+            target.scrollIntoView({
+              behavior: 'smooth',
+              block: 'start'
+            });
+            // Close mobile menu if open
+            navMenu.classList.remove('active');
+            navToggle.classList.remove('active');
+          }
+        });
+      });
+
+      // Navbar scroll effect
+      window.addEventListener('scroll', () => {
+        const navbar = document.querySelector('.navbar');
+        if (window.scrollY > 100) {
+          navbar.classList.add('scrolled');
+        } else {
+          navbar.classList.remove('scrolled');
+        }
+      });
+    </script>
+  </body>
 </html>
